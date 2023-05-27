@@ -1,5 +1,9 @@
 <template>
   <div id="home">
-    <p>Home</p>
+    <HeroBanner />
   </div>
 </template>
+
+<script setup>
+import HeroBanner from "@/components/HeroBanner.vue";
+</script>

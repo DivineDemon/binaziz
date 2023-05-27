@@ -6,3 +6,7 @@
 body {
   font-family: 'Epilogue', sans-serif;
 }
+#banner {
+  background: url("https://images.pexels.com/photos/7245333/pexels-photo-7245333.jpeg") no-repeat;
+  background-size: cover;
+}
