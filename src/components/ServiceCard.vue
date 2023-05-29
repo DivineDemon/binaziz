@@ -6,10 +6,10 @@
       class="rounded-t-lg h-[250px] w-[500px] object-cover"
     />
     <div
-      class="w-full p-10 flex flex-col items-start space-y-5 bg-[#232323] text-white rounded-b-lg h-[300px]"
+      class="w-full p-10 flex flex-col items-start space-y-5 bg-white text-black rounded-b-lg h-[300px]"
     >
       <h3 class="text-[#379683] text-2xl font-bold">{{ data.title }}</h3>
-      <p class="text-white text-justify">{{ data.description }}</p>
+      <p class="text-justify">{{ data.description }}</p>
     </div>
   </div>
 </template>

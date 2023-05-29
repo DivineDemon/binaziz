@@ -4,6 +4,7 @@
     <AboutUs />
     <CompanyOverview />
     <MissionPage />
+    <OurServices />
   </div>
 </template>
 
@@ -12,4 +13,5 @@ import AboutUs from "@/pages/AboutUs.vue";
 import CompanyOverview from "@/pages/CompanyOverview.vue";
 import HeroBanner from "@/pages/HeroBanner.vue";
 import MissionPage from "@/pages/MissionPage.vue";
+import OurServices from "@/pages/OurServices.vue";
 </script>
