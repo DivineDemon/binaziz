@@ -26,11 +26,7 @@
         operations. Choose Bin Aziz Builtz for your next construction project
         and experience our commitment to excellence.
       </p>
-      <button
-        class="bg-[#379683] text-white text-sm font-bold shadow-lg px-5 py-3 rounded-lg"
-      >
-        Contact Us
-      </button>
+      <CommonButton text="Contact Us" />
     </div>
     <!-- Image -->
     <img
@@ -40,3 +36,7 @@
     />
   </div>
 </template>
+
+<script setup>
+import CommonButton from "@/components/CommonButton.vue";
+</script>

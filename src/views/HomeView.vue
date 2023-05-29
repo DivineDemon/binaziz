@@ -6,6 +6,6 @@
 </template>
 
 <script setup>
-import AboutUs from "@/components/AboutUs.vue";
-import HeroBanner from "@/components/HeroBanner.vue";
+import AboutUs from "@/pages/AboutUs.vue";
+import HeroBanner from "@/pages/HeroBanner.vue";
 </script>

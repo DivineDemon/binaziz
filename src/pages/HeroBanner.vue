@@ -14,11 +14,7 @@
           combines experience, innovation, and a passion for excellence. Contact
           us today to discuss your next venture!
         </p>
-        <button
-          class="bg-[#379683] text-white text-sm font-bold shadow-lg px-5 py-3 rounded-lg"
-        >
-          Our Services
-        </button>
+        <CommonButton text="Our Services" />
       </div>
     </div>
     <div
@@ -27,3 +23,7 @@
     />
   </header>
 </template>
+
+<script setup>
+import CommonButton from "@/components/CommonButton.vue";
+</script>
