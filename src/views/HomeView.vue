@@ -6,6 +6,8 @@
     <MissionPage />
     <OurServices />
     <OurClients />
+    <ContactUs />
+    <OfficeLocation />
   </div>
 </template>
 
@@ -16,4 +18,6 @@ import HeroBanner from "@/pages/HeroBanner.vue";
 import MissionPage from "@/pages/MissionPage.vue";
 import OurServices from "@/pages/OurServices.vue";
 import OurClients from "@/pages/OurClients.vue";
+import ContactUs from "@/pages/ContactUs.vue";
+import OfficeLocation from "@/pages/OfficeLocation.vue";
 </script>
