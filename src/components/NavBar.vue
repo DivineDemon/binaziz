@@ -3,8 +3,9 @@
     class="w-screen fixed top-0 z-50 py-5 px-10 flex flex-row items-center justify-between bg-[#877f62]"
   >
     <!-- Logo -->
-    <div class="flex flex-row items-center justify-center space-x-5">
-      <font-awesome-icon icon="fa-solid fa-city" class="w-8 h-8" />
+    <div class="flex flex-row items-center justify-center space-x-2">
+      <!-- <font-awesome-icon icon="fa-solid fa-city" class="w-8 h-8" /> -->
+      <img src="@/assets/images/logo.png" alt="logo" class="w-7 h-7" />
       <span class="font-bold text-lg leading-5 cursor-pointer">
         Bin Aziz Builtz
       </span>
