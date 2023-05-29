@@ -1,5 +1,6 @@
 <template>
   <div
+    id="contact"
     class="py-40 w-full bg-[#353535] flex flex-col items-center justify-center space-y-10"
   >
     <h1 class="text-white text-7xl font-bold">Contact Us</h1>

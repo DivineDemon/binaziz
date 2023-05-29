@@ -1,5 +1,6 @@
 <template>
   <div
+    id="services"
     class="p-40 w-full bg-[#232323] flex flex-col items-center justify-center space-y-10"
   >
     <div class="flex flex-col items-center justify-center space-y-5">

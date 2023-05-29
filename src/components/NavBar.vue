@@ -11,13 +11,17 @@
     </div>
     <!-- Items -->
     <ul class="flex flex-row items-center justify-center space-x-10">
-      <li class="hover:border-b-2 hover:border-black cursor-pointer">Home</li>
-      <li class="hover:border-b-2 hover:border-black cursor-pointer">About</li>
       <li class="hover:border-b-2 hover:border-black cursor-pointer">
-        Services
+        <a href="#banner">Home</a>
       </li>
       <li class="hover:border-b-2 hover:border-black cursor-pointer">
-        Contact
+        <a href="#about">About</a>
+      </li>
+      <li class="hover:border-b-2 hover:border-black cursor-pointer">
+        <a href="#services">Services</a>
+      </li>
+      <li class="hover:border-b-2 hover:border-black cursor-pointer">
+        <a href="#contact">Contact Us</a>
       </li>
     </ul>
   </nav>

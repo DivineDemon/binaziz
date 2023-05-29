@@ -8,6 +8,7 @@
     <OurClients />
     <ContactUs />
     <OfficeLocation />
+    <FooterBar />
   </div>
 </template>
 
@@ -20,4 +21,5 @@ import OurServices from "@/pages/OurServices.vue";
 import OurClients from "@/pages/OurClients.vue";
 import ContactUs from "@/pages/ContactUs.vue";
 import OfficeLocation from "@/pages/OfficeLocation.vue";
+import FooterBar from "@/components/FooterBar.vue";
 </script>

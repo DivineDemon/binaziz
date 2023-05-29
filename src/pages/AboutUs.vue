@@ -1,5 +1,6 @@
 <template>
   <div
+    id="about"
     class="w-full h-screen bg-[#232323] flex flex-row items-center justify-center space-x-24"
   >
     <!-- Content -->
