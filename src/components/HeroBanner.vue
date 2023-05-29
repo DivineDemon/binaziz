@@ -1,9 +1,9 @@
 <template>
   <header
     id="banner"
-    class="w-screen h-screen flex flex-row items-center justify-center"
+    class="w-full h-screen flex flex-row items-center justify-center"
   >
-    <div class="z-40 w-full mx-96">
+    <div class="z-40">
       <div
         class="flex flex-col items-start justify-start text-left text-white space-y-7"
       >
@@ -23,7 +23,7 @@
     </div>
     <div
       id="glass"
-      class="absolute z-0 top-0 left-0 w-screen h-screen backdrop-blur-sm bg-black/30"
+      class="overflow-hidden w-full h-full absolute z-0 top-0 left-0 backdrop-blur-sm bg-black/30"
     />
   </header>
 </template>
