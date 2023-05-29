@@ -1,11 +1,11 @@
 <template>
   <div
     id="about"
-    class="w-full h-screen bg-[#232323] flex flex-row items-center justify-center space-x-24"
+    class="w-full h-screen bg-[#232323] flex flex-col lg:flex-row items-center justify-center lg:space-x-24"
   >
     <!-- Content -->
     <div
-      class="w-[35%] flex flex-col items-start justify-start space-y-10 text-white text-justify"
+      class="w-[75%] lg:w-[50%] xl:w-[35%] flex flex-col items-start justify-start space-y-10 text-white text-justify"
     >
       <h1 class="text-[#379683] text-7xl font-bold">About Binaziz</h1>
       <p>
@@ -20,7 +20,7 @@
         dedicated to meeting our clients' needs, providing exceptional service,
         and delivering projects within the stipulated timeline and budget.
       </p>
-      <p>
+      <p class="hidden md:flex">
         In conclusion, Bin Aziz Builtz is committed to providing secure,
         flexible, and innovative solutions to our clients. We value our
         employees and uphold our company's image and integrity in all our
@@ -33,7 +33,7 @@
     <img
       src="https://images.pexels.com/photos/3510993/pexels-photo-3510993.jpeg"
       alt="bulldozer"
-      class="w-[25%]"
+      class="w-[25%] hidden lg:flex"
     />
   </div>
 </template>

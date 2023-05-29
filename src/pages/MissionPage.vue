@@ -1,10 +1,12 @@
 <template>
   <div
-    class="p-40 w-full h-screen bg-[#353535] flex flex-col items-center justify-center space-y-10"
+    class="p-5 md:p-10 lg:p-20 xl:p-40 w-full bg-[#353535] flex flex-col items-center justify-center space-y-10"
   >
     <div class="flex flex-col items-center justify-center space-y-5">
-      <h1 class="text-7xl font-bold text-red-400">Our Mission</h1>
-      <p class="text-center text-lg font-semibold text-white w-[50%]">
+      <h1 class="text-4xl md:text-7xl font-bold text-red-400">Our Mission</h1>
+      <p
+        class="text-center text-lg font-semibold text-white w-full hidden lg:flex xl:w-[50%]"
+      >
         By embracing these values and objectives, our construction company aims
         to be a trusted partner, delivering exceptional construction solutions
         that leave a lasting positive impact on our clients, communities, and
@@ -12,7 +14,7 @@
       </p>
     </div>
     <div
-      class="grid grid-cols-3 place-items-center justify-content-center gap-10"
+      class="grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 place-items-center justify-content-center gap-3 lg:gap-10"
     >
       <MissionCard
         v-for="mission in missions"

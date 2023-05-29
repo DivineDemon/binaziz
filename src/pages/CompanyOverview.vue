@@ -1,8 +1,8 @@
 <template>
   <div
-    class="pb-40 w-full bg-[#232323] flex flex-col items-center justify-center space-y-10"
+    class="p-5 md:p-10 lg:p-20 xl:p-40 w-full bg-[#232323] flex flex-col items-center justify-center space-y-10"
   >
-    <h1 class="text-7xl text-white font-bold">Company Overview</h1>
+    <h1 class="text-4xl md:text-7xl text-white font-bold">Company Overview</h1>
     <!-- Tab Actions -->
     <div class="flex flex-row items-center justify-center space-x-10">
       <button
@@ -28,7 +28,7 @@
       <div
         v-for="value in values"
         :key="value.id"
-        class="w-[50%] flex flex-col items-start justify-start space-y-5 mt-5 text-justify text-white"
+        class="w-[95%] md:w-[75%] lg:w-[50%] flex flex-col items-start justify-start space-y-5 mt-5 text-justify text-white"
       >
         <h3 class="text-3xl text-[#379683] font-semibold">{{ value.title }}</h3>
         <p>{{ value.description }}</p>
@@ -38,7 +38,7 @@
       <div
         v-for="objective in objectives"
         :key="objective.id"
-        class="w-[50%] flex flex-col items-start justify-start space-y-5 mt-5 text-justify text-white"
+        class="w-[95%] md:w-[75%] lg:w-[50%] flex flex-col items-start justify-start space-y-5 mt-5 text-justify text-white"
       >
         <h3 class="text-3xl text-[#379683] font-semibold">
           {{ objective.title }}

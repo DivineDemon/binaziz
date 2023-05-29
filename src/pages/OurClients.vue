@@ -1,12 +1,12 @@
 <template>
   <div
-    class="p-40 w-full bg-[#353535] flex flex-col items-center justify-center space-y-10"
+    class="p-5 md:p-10 lg:p-20 xl:p-40 w-full bg-[#353535] flex flex-col items-center justify-center space-y-10"
   >
     <div class="flex flex-col items-center justify-center space-y-5">
-      <h1 class="text-7xl font-bold text-white">Our Clients</h1>
+      <h1 class="text-4xl md:text-7xl font-bold text-white">Our Clients</h1>
     </div>
     <div
-      class="grid grid-cols-3 place-items-center justify-content-center gap-10"
+      class="grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 place-items-center justify-content-center gap-10"
     >
       <ClientCard v-for="client in clients" :key="client.id" :data="client" />
     </div>

@@ -8,6 +8,7 @@ import {
   faEnvelope,
   faList,
   faEarthAmericas,
+  faBars,
 } from "@fortawesome/free-solid-svg-icons";
 
 import App from "./App.vue";
@@ -15,7 +16,7 @@ import store from "./store";
 import router from "./router";
 import "./assets/css/tailwind.css";
 
-library.add(faCity, faPhone, faEnvelope, faList, faEarthAmericas);
+library.add(faCity, faPhone, faEnvelope, faList, faEarthAmericas, faBars);
 
 createApp(App)
   .use(store)

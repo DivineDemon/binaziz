@@ -3,9 +3,9 @@
     id="contact"
     class="py-40 w-full bg-[#353535] flex flex-col items-center justify-center space-y-10"
   >
-    <h1 class="text-white text-7xl font-bold">Contact Us</h1>
+    <h1 class="text-white text-4xl md:text-7xl font-bold">Contact Us</h1>
     <div
-      class="grid grid-cols-2 place-items-center justify-content-center gap-10"
+      class="grid grid-cols-1 lg:grid-cols-2 place-items-center justify-content-center gap-10"
     >
       <ContactCard
         v-for="contact in contacts"
