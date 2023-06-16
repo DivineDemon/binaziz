@@ -5,7 +5,7 @@
   >
     <!-- Content -->
     <div
-      class="w-[75%] lg:w-[50%] xl:w-[35%] flex flex-col items-start justify-start space-y-10 text-white text-justify"
+      class="w-[75%] lg:w-[50%] xl:w-[35%] flex flex-col items-center justify-center sm:items-start sm:justify-start space-y-10 text-white text-center sm:text-justify"
     >
       <h1 class="text-[#379683] text-7xl font-bold">About Binaziz</h1>
       <p>
